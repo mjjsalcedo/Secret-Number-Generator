@@ -1,7 +1,8 @@
+/*jshint esversion: 6 */
 'use strict';
 module.exports = function() {
 
-    let generatedNumber = (Math.random()*1000000);
+    let generatedNumber = (Math.random()*1000001);
 
     return function (){
       return generatedNumber;
