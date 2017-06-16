@@ -2,7 +2,7 @@
 'use strict';
 module.exports = function() {
 
-    let generatedNumber = (Math.random()*1000001);
+    let generatedNumber = (Math.floor(Math.random()*1000001));
 
     return function (){
       return generatedNumber;
@@ -10,4 +10,5 @@ module.exports = function() {
     };
 
   };
+
 
